@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Angular Forms</title>
+    <style>
+        label {
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<!--Declaring Angular application-->
+
+<body ng-app="formName">
+    <h1>PERSON FORM</h1>
+  <!--   <div ng-cloak>
+        <md-content>
+            <md-tab label="one">
+      
+                <person-form></person-form>
+            </md-tab>
+        
+      
+      <md-tab label="two">
+        
+          <h1 class="md-display-2">Tab Two</h1>
+    <main-form></main-form>
+          
+      </md-tab>
+    
+  </md-content>
+</div> -->
+    <person-form></person-form>
+    <main-form></main-form>
+
+    <script type="text/javascript" src="/node_modules/angular/angular.js"></script>
+
+    <script type="text/javascript" src="/scripts/form.js"></script>
+    
+    <script type="text/javascript" src="/scripts/directives/mainForm.js"></script> <!-- FormDirective -->
+    <script type="text/javascript" src="/scripts/directives/personForm.js"></script> <!-- FormDirective -->
+    <script type="text/javascript" src="/scripts/controller/formCtrl.js"></script> <!-- FormController -->
+    
+</body>
+
+</html>
